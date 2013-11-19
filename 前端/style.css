@@ -1,0 +1,92 @@
+*{
+  color:red;
+}
+.nav {
+  width:500px;
+  height:50px;
+  background-color:#b4b4b4;
+  margin: 0 auto;
+ } 
+.nav ul { 
+  width:500px;
+  height:50px; 
+  background-image:url(360截图20131119020606030.jpg);
+  padding: 0;
+ } 
+.nav ul li {
+  width:100px;
+  height:50px;
+  float:left;
+  position: relative;;
+ }
+.nav ul li a {
+  display:block;
+  width:96px;
+  border:2px solid blue;
+  float:left;
+  height:46px; 
+  line-height:46px; 
+  text-align:center;
+  text-decoration:none;
+}
+.nav ul li a:hover { 
+  background-image:url(360截图20131118011223266.jpg);
+} 
+.nav ul li ul {
+  display:none
+}
+.nav ul li:hover ul { 
+  display:block;
+  width:100px;
+  position:absolute; 
+  top:50px;
+  left:0;
+  background-image:url(360截图20131118010611221.jpg);
+}
+.nav ul li:hover ul li {
+  width:100px;
+  height:50px;
+  position:relative;
+  background-image:url(360截图20131118010611221.jpg);
+} 
+.nav ul li:hover ul li a {
+  display:block;
+  width:96px;
+  border:2px solid blue;
+  float:left;
+  height:46px; 
+  line-height:46px; 
+  text-align:center;
+  text-decoration:none;
+} 
+.nav ul li:hover ul li a:hover {
+  background-image:url(360截图20131118011223266.jpg);
+}
+.nav ul li:hover ul li ul {
+  display:none
+}
+.nav ul li:hover  ul  li:hover  ul{ 
+  display:block; 
+  width:100px; 
+  position:absolute; 
+  top:0px; 
+  left:100px;
+  background-image:url(360截图20131118010611221.jpg);
+}
+.nav ul li:hover ul li:hover ul li { 
+  width:100px;
+  height:50px;
+}
+.nav ul li:hover ul li:hover ul li a { 
+ display:block;
+  width:96px;
+  border:2px solid blue;
+  float:left;
+  height:46px; 
+  line-height:46px; 
+  text-align:center;
+  text-decoration:none;
+}
+.nav ul li:hover ul li:hover ul li a:hover {
+ background-image:url(360截图20131118011223266.jpg);
+}

@@ -1,0 +1,27 @@
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>ClassName</title>
+	<script language=javascript type="text/javascript">
+	function find()
+	{
+		var a = document.getElementsByTagName("div");
+		alert("网页里所有的id(或class)集合共有："+a.length+"个！");
+		for (var i=0,s=0; i<a.length; i++)
+		{
+		if (a[i].id=="a")
+			s=s+a[i];
+		}
+	alert(s);
+	}
+	</script>
+</head>
+<body>
+	<form>
+	<input TYPE=button onclick="find();">
+	<div id="a"></div>
+	<div id="a"></div>
+	</form>
+</body>
+</html>
